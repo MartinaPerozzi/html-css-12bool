@@ -1,4 +1,4 @@
-.row{
+.row:not(.green){
     background-color: #056cfa;
     color:white;
     border-bottom: 1px solid white;
@@ -10,29 +10,36 @@
 
 [class*="col"]{
     height:40px;
-    border-right: 1px solid white;   
+    border-right: 1px solid white; 
+    display:flex;
+    align-items: center;
+    justify-content: center;  
 }
 
-.nested{
-    width:50%;
-    border:1px solid #056cfa;
-   
+.special{
+    background-color: #056cfa;   
+    border-bottom: 0px solid white; 
 }
-.special>.nested:first-child{
-    margin-right: 1rem;
-    border: 1px solid white;
+.special>[class*="col"]{
+    margin:0.5rem;
+    border:0px;
+ 
 }
 
-.nested>*{
+.green{
+    gap:0.5rem;
+}
+
+.green>*{
     background-color: rgb(17, 190, 17);
-    margin-right:0.3rem;
-    margin-left:0.3rem;
-    margin-top:1rem;
-    margin-bottom:1rem;
+    padding:0rem 1rem;
 }
 
 .mt{
     margin-top:2rem;
+}
+.mt4 {
+    margin-top: 4rem;
 }
 
 .no-color{
