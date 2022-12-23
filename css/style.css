@@ -48,4 +48,18 @@
 }
 .no-color>*{
     background-color: #056cfa;
+    border: 1px solid white;
+}
+
+/* TRY */
+.green2{
+    width:50%;
+    gap: 0.5rem;
+    padding:0.5rem;
+    border-right:1px solid white;
+}
+
+.green2>*{
+    background-color: rgb(17, 190, 17);
+    padding:0rem 1rem;
 }
