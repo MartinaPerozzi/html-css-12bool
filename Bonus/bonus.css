@@ -1,0 +1,163 @@
+.container{
+    background-color: rgb(117, 179, 234);
+    width:960px;
+}
+.row{
+    height:70px;
+    justify-content: center;
+}
+.small-objects {
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    gap:50px;
+    z-index: 1;
+}
+.row-big{
+    display:flex;
+    justify-content: center;
+    height:200px;
+}
+.row-puff{
+    height:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bonnet>.col-1{
+    background-color: white;
+    border-radius: 50%;
+    border-bottom:7px solid grey;
+}
+.bonnet>.first {
+    background-color: rgb(255, 26, 26);
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+}
+.bonnet>.col-3 {
+    background-color: rgb(255, 26, 26);
+    border-left: 40px solid rgb(166, 17, 17);
+}
+.bonnet>.col-4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 70%;
+    margin-top: -40px;
+}
+
+.puf{
+    background-color: white;
+    border-radius: 50%;
+    margin-top:-40px;
+    margin-right: -2px;
+    border-bottom:6px solid grey;
+    z-index: 1;
+    box-shadow: 2px 0px 20px #888888;
+}
+/* face */
+.face-1{
+    margin-top:-180px;
+}
+
+.face-1>.col-1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top:0px;
+    margin-right:-16px;
+    margin-left: -16px;
+}
+.row-big>.col-4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 70%;
+    margin-top: -50px;
+}
+.small-objects{
+    background-color:white;
+}
+.small-objects>.eye{
+    height:40px;
+    aspect-ratio:1;
+    border-radius: 50%;
+    background-color: black;
+    color:white;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.nose{
+    margin-top:-30px;
+    margin-bottom: 30px;
+}
+.carot{
+    background-color: orange;
+    width:40px;
+    height:90px;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+}
+
+
+/* sciarpa */
+.row-big.body.only{
+    margin-top:-30px;
+}
+.sciarpa{
+    height:80px;
+}
+.sciarpa>.col-1{
+    background-color: red;
+}
+.sciarpa>.white {
+    background-color: rgb(255, 255, 255);
+}
+
+.sciarpa>.col-1:first-child{
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 80%;
+    border-top: 3px solid rgb(134, 1, 1);
+}
+.sciarpa>.white:last-child {
+    border-top-right-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top: 3px solid rgb(56, 56, 56);
+}
+
+.body>.col-2 {
+    background-color: rgb(255, 255, 255);  
+}
+
+.button{
+    align-items: flex-end;
+}
+.snow>.col-12{
+    background-color: white;
+    margin-top: -100px;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-bottom:8px solid rgb(117, 179, 234);
+}
+.snow div:last-child{
+    font-family: sans-serif;
+    font-size: 40px;
+    padding:3rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Gemstones', cursive;
+    color:rgb(117, 179, 234);
+}
+.snow>img{
+    padding:1rem;
+}
+
+
+/*  */
+.bradius-l{
+    border-top-left-radius: 100%;
+}
+.bradius-r {
+    border-top-right-radius: 100%;
+}
+.bradius-rb {
+    border-bottom-right-radius: 100%;
+}
+.bradius-lb {
+    border-bottom-left-radius: 100%;
+}
