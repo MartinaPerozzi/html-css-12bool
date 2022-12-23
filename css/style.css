@@ -23,9 +23,10 @@
 .special>[class*="col"]{
     margin:0.5rem;
     border:0px;
- 
 }
-
+.special>.col-6:first-child{
+    border-right:1px solid white;
+}
 .green{
     gap:0.5rem;
 }
