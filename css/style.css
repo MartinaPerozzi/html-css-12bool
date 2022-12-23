@@ -1,0 +1,43 @@
+.row{
+    background-color: #056cfa;
+    color:white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 0.8rem;
+    align-content: center;
+}
+
+[class*="col"]{
+    height:40px;
+    border-right: 1px solid white;   
+}
+
+.nested{
+    width:50%;
+    border:1px solid #056cfa;
+   
+}
+.special>.nested:first-child{
+    margin-right: 1rem;
+    border: 1px solid white;
+}
+
+.nested>*{
+    background-color: rgb(17, 190, 17);
+    margin-right:0.3rem;
+    margin-left:0.3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.mt{
+    margin-top:2rem;
+}
+
+.no-color{
+    background-color: transparent;
+}
+.no-color>*{
+    background-color: #056cfa;
+}
